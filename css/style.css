@@ -1,0 +1,730 @@
+.top-page {
+    background-image: url(../img/nature.jpg);
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+@media screen and (max-width:780px) { 
+    .top-page { 
+        width: 100vw;
+        height: 65vh;
+        background-size: cover;
+    }
+}
+
+header {
+    margin: 0 20px;
+    padding: 35px 0 ;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:780px) { 
+    header { 
+        width: 100vw;
+        height: 10vh;
+        padding: 10px 0;
+        margin: 0;
+    }
+}
+
+.gnav {
+    display: flex;
+    height: 2rem;
+    margin: 0 50px;
+    width: 1100px;
+}
+@media screen and (max-width:780px) { 
+    .gnav { 
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+   }
+}
+
+.gnav > li {
+    width: 20%;
+    margin: 0 30px;
+    background-color: rgba(179, 197, 207, 0.4);
+}
+@media screen and (max-width:780px) { 
+    .gnav > li { 
+        margin: 0 1px;
+        width: 22vw;
+    }
+}
+
+.gnav li {
+    list-style: none;
+    position: relative;
+}
+@media screen and (max-width:780px) { 
+    .gnav li { 
+        font-size: 5px;
+        width: 22vw;
+    }
+}
+
+.header-left {
+    padding: 10px 0;
+}
+@media screen and (max-width:780px) { 
+    .header-left { 
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.gnav {
+    width: 80vw;
+}
+@media screen and (max-width:780px) { 
+    .gnav { 
+        width: 100vw;
+        margin: 0;
+    }
+}
+
+.gnav li a {
+    border-right: 1px solid #eee;
+    color: white;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: dotted 1.5px white; 
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media screen and (max-width:780px) { 
+    .gnav li a{ 
+        font-size: 4px;
+        width: 22vw;
+    }
+}
+
+.gnav li ul li {
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    background-color: rgba(184, 205, 216, 0.473);
+}
+@media screen and (max-width:780px) { 
+    .gnav  li ul li { 
+        font-size: 4px;
+    }
+}
+.gnav li li a {
+    border-bottom: dotted 1.5px white;
+    font-weight: lighter;
+}
+
+.gnav li:hover > ul > li {
+    height: 2rem;
+    overflow: visible;
+}
+
+.header-right {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.header-right {
+    display: none;
+  }
+/* @media screen and (max-width:780px) { 
+    .header-right { 
+        width: 20vw;
+        margin: 0;
+        padding-top: 10px;
+    }
+} */
+
+.tel {
+    text-align: center;
+}
+
+
+.tel > p {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.tel > a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+@media(min-width: 768px){
+    a[href^="tel:"]{
+      pointer-events: none;
+    }
+  }
+  @media screen and (max-width:780px) { 
+    .tel > p ,.tel > a { 
+        font-size: 8px;
+    }
+}
+
+.main-visual {
+    height: 60vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:780px) { 
+    .main-visual { 
+        height: 40vh;
+    }
+}
+
+.main-visual > h2 {
+    margin: 15px auto ;
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
+}
+@media screen and (max-width:780px) { 
+    .main-visual > h2 { 
+        font-size: 20px;
+        margin: 20px auto;
+    }
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Fredericka the Great', cursive;
+}
+@media screen and (max-width:780px) { 
+    h1 { 
+        font-size: 50px;
+    }
+}
+
+
+.main-visual > p {
+    margin: 40px auto;
+    padding: 12px;
+    background-color: rgba(229, 237, 238, 0.555);
+    border: solid 1px rgba(196, 206, 224, 0.7);
+}
+@media screen and (max-width:780px) { 
+    .main-visual > p { 
+        padding: 5px;
+    }
+}
+
+.covid-19 {
+    color: #dd2247;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+@media screen and (max-width:780px) { 
+    .covid-19 { 
+        font-size: 8px;
+    }
+}
+
+.main-nav {
+    margin-top: 40px;
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+}   
+@media screen and (max-width:780px) { 
+    .main-nav { 
+        margin: 8px;
+    }
+}
+   
+.main-nav > ul > li  {
+    width: 90vw;
+    height: 10vh;
+    margin: 30px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width:780px) { 
+    .main-nav > ul > li { 
+        height: 5vh;
+    }
+}
+
+.main-nav > ul > li > span > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+@media screen and (max-width:780px) { 
+    .main-nav > ul > li > span > a { 
+        font-size: 10px;
+    }
+}
+
+span > a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+span > a::after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+  }
+span > a:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+small {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.content {
+    width: 100vw;
+    height: 60vh;
+    /* background-image: url(../img/news.jpg); */
+    display: block;
+    background-color: rgba(229, 237, 238, 0.555);
+}
+@media screen and (max-width:780px) { 
+    .content { 
+        width: 100vw;
+        height: 57vh;
+    }
+}
+
+.content > h1 {
+    padding: 30px auto;
+}
+
+.name {
+    height: 8vh;
+    width: 80vw;
+    margin: auto;
+    padding: 40px 0 0 0;
+    font-size: 45px;
+    text-align: center;
+    display: block;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media screen and (max-width:780px) { 
+    .name { 
+        font-size: 16px;
+        padding: 15px 0 0 0 ;
+        height: 4vh;
+    }
+}
+
+.sab-name {
+    text-align: center;
+    color: #408080;
+    display: block;
+}
+@media screen and (max-width:780px) { 
+    .sab-name { 
+        font-size: 8px;
+    }
+}
+
+.content2 {
+    margin: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+@media screen and (max-width:780px) { 
+    .content2 { 
+        margin: 20px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.news1 ,.news2 ,.news3 ,.news4 {
+    padding: 0 40px;
+}
+@media screen and (max-width:780px) { 
+    .news1 ,.news2 ,.news3 ,.news4 { 
+        padding: 5px 10px;
+    }
+}
+
+.news1 > p > a ,.news2 > p > a  ,.news3 > p > a  ,.news4 > p > a {
+    color: black;
+} 
+@media screen and (max-width:780px) { 
+    .news1 > p > a ,.news2 > p > a  ,.news3 > p > a  ,.news4 > p > a { 
+        font-size: 12px;
+    }
+}
+
+.news1 > p > a:hover ,.news2 > p > a:hover  ,.news3 > p > a:hover  ,.news4 > p > a:hover {
+    color: chartreuse;
+} 
+
+.news-photo {
+    width: 18vw;
+    height: 24vh;
+}
+@media screen and (max-width:780px) { 
+    .news-photo { 
+        width: 38vw;
+        height: 14vh;
+    }
+}
+
+.event {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../img/news.jpg);
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+}
+@media screen and (max-width:780px) { 
+    .event { 
+        width: 100vw;
+        height:50vh;
+    }
+}
+
+.function {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:780px) { 
+    .function { 
+        height: 6vh;
+    }
+}
+
+.schedule {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+@media screen and (max-width:780px) { 
+    .schedule { 
+        font-size: 20px;
+    }
+}
+
+.schedule2 {
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight: initial;
+}
+@media screen and (max-width:780px) { 
+    .schedule2 { 
+        font-size: 8px;
+    }
+}
+
+.event > ul {
+    margin: 10px 0 0 0;
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    justify-content: end;
+    align-items: flex-start;
+}
+@media screen and (max-width:780px) { 
+    .event > ul { 
+        height: 45vh;
+    }
+}
+
+.event2 {
+    width: 60vw;
+    height: 5vh;
+    border: 1px solid black;
+    margin: 14px auto;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:780px) { 
+    .event2 { 
+        width: 75vw;
+        height: 5vh;
+    }
+}
+
+.event2 > a {
+    text-decoration: none;
+}
+
+.schedule-day {
+    margin: 0 30px;
+    font-size: 14px;
+}
+@media screen and (max-width:780px) { 
+    .schedule-day { 
+        font-size: 8px;
+        margin: 0 5px;
+        width: 18vw;
+    }
+}
+
+.schedule-title {
+    margin: 0 30px;
+}
+@media screen and (max-width:780px) { 
+    .schedule-title { 
+        font-size: 10px;
+        margin: 0 10px;
+    }
+}
+
+.sns {
+    width: 100vw;
+    height: 12vh;
+    margin: 5px;
+    background-image: url(../img/news.jpg);
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width:780px) { 
+    .sns { 
+        width: 100vw;
+        height: 12vh;
+        margin: 0;
+    }
+}
+
+.sns-twitter {
+    margin-left: 80px;
+}
+@media screen and (max-width:780px) { 
+    .sns-twitter { 
+        margin: 0 auto;
+    }
+}
+
+.sns-facebook {
+    margin-right: 80px;
+}
+@media screen and (max-width:780px) { 
+    .sns-facebook { 
+        margin: 0 auto;
+    }
+}
+
+.bnr-logo > img {
+    width: 10px;
+    height: 20px;
+    margin: 10px;
+}
+
+.sns-twitter > .bnr-logo > img {
+    width: 25px;
+    height: 30px;
+}
+
+
+.sns-insta > .bnr-logo > img {
+    width: 20px;
+    height: 40px;
+    margin: 10px;
+}
+
+.bnr-title > small {
+    display: block;
+    font-size: 15px;
+}
+@media screen and (max-width:780px) { 
+    .bnr-title > small { 
+        font-size: 8px;
+    }
+}
+
+.bnr-title {
+    margin: 0 auto;
+}
+@media screen and (max-width:780px) { 
+    .bnr-title { 
+        font-size: 10px;
+    }
+}
+
+.sns-facebook {
+    width: 300px;
+    height: 42px;
+    border: 1px solid #4329d6;
+    color: #4329d6;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media screen and (max-width:780px) { 
+    .sns-facebook { 
+        margin: 1px;
+        width: 170px;
+    }
+}
+.sns-insta {
+    width: 300px;
+    height: 42px;
+    border: 1px solid #f92d51;
+    color: #f92d51;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media screen and (max-width:780px) { 
+    .sns-insta { 
+        margin: 1px;
+        width: 170px;
+    }
+}
+
+.sns-twitter{
+    width: 300px;
+    height: 42px;
+    border: 1px solid #1ccbe3;
+    color: #1ccbe3;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media screen and (max-width:780px) { 
+    .sns-twitter { 
+        margin: 1px;
+        width: 170px;
+    }
+}
+
+.sns-twitter:hover  {
+    background-color: #fed6f8;
+}
+.sns-insta:hover {
+    background-color: #fed6f8;
+}
+.sns-facebook:hover {
+    background-color: #fed6f8;
+}
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(116, 64, 23, 0.377);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width:780px) { 
+    footer {
+        height: 13vh;
+    }
+}
+
+.address {
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:780px) { 
+    .address { 
+        height: 13vh;
+        display: flex;
+    }
+}
+
+.address > h4 {
+    font-size: 16px;
+    margin: 10px 56px 10px 0;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media screen and (max-width:780px) { 
+    .address > h4 { 
+        font-size: 8px;
+        margin: 0;
+    }
+}
+
+.address > ul > li {
+    margin: 12px;
+    font-size: 12px;
+}
+@media screen and (max-width:780px) { 
+    .address > ul > li { 
+        font-size: 6px;
+        margin: 4px;
+    }
+}
+
+.footer-menu {
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width:780px) { 
+    .footer-menu { 
+        height: 13px;
+    }
+}
+
+.footer-menu-row > ul > li {
+    margin: 10px 0;
+    font-size: 14px;    
+}
+@media screen and (max-width:780px) { 
+    .footer-menu-row > ul > li {
+        margin: 5px 0;
+        font-size: 8px;
+    }
+}
+
+.footer-menu-row > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-menu-row > ul > li > a:hover {
+    color: green;
+}
