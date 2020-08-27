@@ -46,7 +46,7 @@ header {
 
 .gnav > li {
     width: 20%;
-    margin: 0 30px;
+    margin: 0 25px;
     background-color: rgba(179, 197, 207, 0.4);
 }
 @media screen and (max-width:780px) { 
@@ -68,6 +68,8 @@ header {
 }
 
 .header-left {
+    width: 75vw;
+    margin-right: 5vw;
     padding: 10px 0;
 }
 @media screen and (max-width:780px) { 
@@ -79,7 +81,8 @@ header {
 }
 
 .gnav {
-    width: 80vw;
+    width: 75vw;
+    margin-right: 5vw;
 }
 @media screen and (max-width:780px) { 
     .gnav { 
@@ -134,9 +137,11 @@ header {
     display: flex;
     flex-direction: column;
 }
-.header-right {
-    display: none;
-  }
+@media screen and (max-width:780px) {
+    .header-right {
+        display: none;
+    }
+}
 /* @media screen and (max-width:780px) { 
     .header-right { 
         width: 20vw;
@@ -147,6 +152,7 @@ header {
 
 .tel {
     text-align: center;
+    color: rgba(128, 81, 10, 0.651)
 }
 
 
@@ -156,7 +162,7 @@ header {
 }
 .tel > a {
     font-size: 18px;
-    color: black;
+    color: rgba(63, 60, 60, 0.719);
     text-decoration: none;
 }
 @media(min-width: 768px){
@@ -239,6 +245,7 @@ h1 {
 }   
 @media screen and (max-width:780px) { 
     .main-nav { 
+        width: 95vw;
         margin: 8px;
     }
 }
@@ -307,10 +314,11 @@ small {
 
 .content {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     /* background-image: url(../img/news.jpg); */
     display: block;
-    background-color: rgba(229, 237, 238, 0.555);
+    background-color: white;
+    /* background-color: rgba(229, 237, 238, 0.555); */
 }
 @media screen and (max-width:780px) { 
     .content { 
@@ -326,8 +334,8 @@ small {
 .name {
     height: 8vh;
     width: 80vw;
-    margin: auto;
-    padding: 40px 0 0 0;
+    margin: 16px auto 0;
+    padding: 2px 0 0 0;
     font-size: 45px;
     text-align: center;
     display: block;
@@ -336,7 +344,7 @@ small {
 @media screen and (max-width:780px) { 
     .name { 
         font-size: 16px;
-        padding: 15px 0 0 0 ;
+        padding: 5px 0 0 0 ;
         height: 4vh;
     }
 }
@@ -366,6 +374,26 @@ small {
         justify-content: center;
     }
 }
+
+.logo99 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo100 {
+    width: 9vw;
+    height: 9vh;
+    margin-top: 38px;
+}
+@media screen and (max-width:780px) { 
+    .logo100 { 
+        width: 24px;
+        height: 24px;
+        margin-top: 10px;
+    }
+}
+
 
 .news1 ,.news2 ,.news3 ,.news4 {
     padding: 0 40px;
@@ -467,6 +495,7 @@ small {
     width: 60vw;
     height: 5vh;
     border: 1px solid black;
+    background-color: rgba(209, 219, 219, 0.247);
     margin: 14px auto;
     display: flex;
     align-items: center;
@@ -581,8 +610,9 @@ small {
 .sns-facebook {
     width: 300px;
     height: 42px;
-    border: 1px solid #4329d6;
+    border: 1.5px solid #4329d6;
     color: #4329d6;
+    background-color: rgba(131, 142, 207, 0.219);
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
@@ -593,14 +623,15 @@ small {
 @media screen and (max-width:780px) { 
     .sns-facebook { 
         margin: 1px;
-        width: 170px;
+        width: 150px;
     }
 }
 .sns-insta {
     width: 300px;
     height: 42px;
-    border: 1px solid #f92d51;
+    border: 1.5px solid #f92d51;
     color: #f92d51;
+    background-color: rgba(209, 77, 117, 0.199);
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
@@ -611,15 +642,16 @@ small {
 @media screen and (max-width:780px) { 
     .sns-insta { 
         margin: 1px;
-        width: 170px;
+        width: 150px;
     }
 }
 
 .sns-twitter{
     width: 300px;
     height: 42px;
-    border: 1px solid #1ccbe3;
+    border: 1.5px solid #1ccbe3;
     color: #1ccbe3;
+    background-color: rgba(116, 192, 197, 0.26);
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
@@ -630,18 +662,18 @@ small {
 @media screen and (max-width:780px) { 
     .sns-twitter { 
         margin: 1px;
-        width: 170px;
+        width: 150px;
     }
 }
 
 .sns-twitter:hover  {
-    background-color: #fed6f8;
+    background-color: #ccf5fd;
 }
 .sns-insta:hover {
     background-color: #fed6f8;
 }
 .sns-facebook:hover {
-    background-color: #fed6f8;
+    background-color: #aac0fb;
 }
 
 footer {
