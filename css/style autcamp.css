@@ -1,208 +1,209 @@
 .top-page {
-    background-image: url(../img/nature.jpg);
-    background-color:rgba(255,255,255,0.3);
-    background-blend-mode:lighten;
-    width: 100vw;
-    height: 35vh;
-    background-size: cover;
+  background-image: url(../img/nature.jpg);
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  width: 100vw;
+  height: 35vh;
+  background-size: cover;
 }
-@media screen and (max-width:780px) { 
-    .top-page { 
-        width: 100vw;
-        height: 65vh;
-        background-size: cover;
-    }
+@media screen and (max-width: 780px) {
+  .top-page {
+    width: 100vw;
+    height: 65vh;
+    background-size: cover;
+  }
 }
 
 header {
-    margin: 0 20px;
-    padding: 10px 0 ;
-    display: flex;
-    justify-content: space-around;
+  margin: 0 20px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
 }
-@media screen and (max-width:780px) { 
-    header { 
-        width: 100vw;
-        height: 10vh;
-        padding: 10px 0;
-        margin: 0;
-    }
+@media screen and (max-width: 780px) {
+  header {
+    width: 100vw;
+    height: 10vh;
+    padding: 10px 0;
+    margin: 0;
+  }
 }
 
 .gnav {
-    display: flex;
-    height: 2rem;
-    margin: 0 50px;
-    width: 1100px;
+  display: flex;
+  height: 2rem;
+  margin: 0 50px;
+  width: 1100px;
 }
-@media screen and (max-width:780px) { 
-    .gnav { 
-        margin: 0;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-   }
+@media screen and (max-width: 780px) {
+  .gnav {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .gnav > li {
-    width: 20%;
-    margin: 0 30px;
-    background-color: rgba(179, 197, 207, 0.4);
+  width: 20%;
+  margin: 0 30px;
+  background-color: rgba(179, 197, 207, 0.4);
 }
-@media screen and (max-width:780px) { 
-    .gnav > li { 
-        margin: 0 1px;
-        width: 22vw;
-    }
+@media screen and (max-width: 780px) {
+  .gnav > li {
+    margin: 0 1px;
+    width: 22vw;
+  }
 }
 
 .gnav li {
-    list-style: none;
-    position: relative;
+  list-style: none;
+  position: relative;
 }
-@media screen and (max-width:780px) { 
-    .gnav li { 
-        font-size: 5px;
-        width: 22vw;
-    }
+@media screen and (max-width: 780px) {
+  .gnav li {
+    font-size: 5px;
+    width: 22vw;
+  }
 }
 
 .header-left {
-    padding: 10px 0;
+  padding: 10px 0;
 }
-@media screen and (max-width:780px) { 
-    .header-left { 
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-    }
+@media screen and (max-width: 780px) {
+  .header-left {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .gnav {
-    width: 80vw;
+  width: 80vw;
 }
-@media screen and (max-width:780px) { 
-    .gnav { 
-        width: 100vw;
-        margin: 0;
-    }
+@media screen and (max-width: 780px) {
+  .gnav {
+    width: 100vw;
+    margin: 0;
+  }
 }
 
 .gnav li a {
-    border-right: 1px solid #eee;
-    color: white;
-    display: block;
-    height: 2rem;
-    line-height: 2rem;
-    text-decoration: none;
-    width: 100%;
-    border-bottom: dotted 1.5px white; 
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Kosugi Maru', sans-serif;
+  border-right: 1px solid #eee;
+  color: white;
+  display: block;
+  height: 2rem;
+  line-height: 2rem;
+  text-decoration: none;
+  width: 100%;
+  border-bottom: dotted 1.5px white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Kosugi Maru", sans-serif;
 }
-@media screen and (max-width:780px) { 
-    .gnav li a{ 
-        font-size: 4px;
-        width: 22vw;
-    }
+@media screen and (max-width: 780px) {
+  .gnav li a {
+    font-size: 4px;
+    width: 22vw;
+  }
 }
 
 .gnav li ul li {
-    height: 0;
-    overflow: hidden;
-    transition: .5s;
-    background-color: rgba(184, 205, 216, 0.473);
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: rgba(184, 205, 216, 0.473);
 }
-@media screen and (max-width:780px) { 
-    .gnav  li ul li { 
-        font-size: 4px;
-    }
+@media screen and (max-width: 780px) {
+  .gnav li ul li {
+    font-size: 4px;
+  }
 }
 .gnav li li a {
-    border-bottom: dotted 1.5px white;
-    font-weight: lighter;
+  border-bottom: dotted 1.5px white;
+  font-weight: lighter;
 }
 
 .gnav li:hover > ul > li {
-    height: 2rem;
-    overflow: visible;
+  height: 2rem;
+  overflow: visible;
 }
 
 .title {
-    width: 100vw;
-    height: 18vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-title {
-    width:25vw;
-    height:8vh;
-    font-size: 42px;
-    border: 1px solid white;
-    color:black;
-    background-color: rgba(255,255,255,0.4);
-    font-family: 'Fredericka the Great', cursive;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 25vw;
+  height: 8vh;
+  font-size: 42px;
+  border: 1px solid white;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: "Fredericka the Great", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu {
-    width: 100vw;
-    height: 40vh;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 40vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-logo {
-    width: 7vw;
-    height: 7vh;
+  width: 7vw;
+  height: 7vh;
 }
 
 .menu-title {
-    width: 38vw;
-    height: 5vh;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Kosugi Maru', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 38vw;
+  height: 5vh;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kosugi Maru", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title-en {
-    font-size: 14px;
-    color: rgba(189, 92, 17, 0.507);
+  font-size: 14px;
+  color: rgba(189, 92, 17, 0.507);
 }
 
 .sab-title {
-    font-size: 22px;
-    margin: 35px 0 20px 0;
-    color: rgba(14, 9, 6, 0.699);
+  font-size: 22px;
+  margin: 35px 0 20px 0;
+  color: rgba(14, 9, 6, 0.699);
 }
 
-.menu-pr ,.menu-pr2 {
-    font-size: 16px;
-    color: rgba(94, 91, 89, 0.62);
-    margin: 15px 0;
+.menu-pr,
+.menu-pr2 {
+  font-size: 16px;
+  color: rgba(94, 91, 89, 0.62);
+  margin: 15px 0;
 }
 
 .map {
-    width: 100vw;
-    height: 112vh;
-    background-color: rgba(241, 238, 235, 0.466);
-    margin-top: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 112vh;
+  background-color: rgba(241, 238, 235, 0.466);
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .map-logo {
@@ -211,306 +212,303 @@ header {
 } */
 
 .map-title {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Kosugi Maru', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kosugi Maru", sans-serif;
 }
 
 .map-en {
-    font-size: 14px;
-    margin-top: 5px;
-    color: rgba(189, 92, 17, 0.507);
+  font-size: 14px;
+  margin-top: 5px;
+  color: rgba(189, 92, 17, 0.507);
 }
 
 .map-map {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .rule2 {
-    width: 100vw;
-    height: 25vh;
-    margin-top: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 25vh;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo1 {
-    width: 7vw;
-    height: 7vh;
+  width: 7vw;
+  height: 7vh;
 }
 
 .rule-title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 .rule-en {
-    font-size: 14px;
-    color: rgba(189, 92, 17, 0.507);
-    margin-top: 3px;
+  font-size: 14px;
+  color: rgba(189, 92, 17, 0.507);
+  margin-top: 3px;
 }
 
 .rule3 {
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title2 {
-    font-size: 22px;
-    color: #33241D;
+  font-size: 22px;
+  color: #33241d;
 }
 
 .title2-sab {
-    font-size: 15px;
-    color: rgba(189, 92, 17, 0.507);
-    margin-top: 4px;
+  font-size: 15px;
+  color: rgba(189, 92, 17, 0.507);
+  margin-top: 4px;
 }
 
 .limit > ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
 }
 
 .limit > ul > li {
-    margin: 0 20px;
-    color: #808040
+  margin: 0 20px;
+  color: #808040;
 }
-
-
 
 .sns {
+  width: 100vw;
+  height: 12vh;
+  margin: 5px;
+  background-image: url(../img/news.jpg);
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 780px) {
+  .sns {
     width: 100vw;
     height: 12vh;
-    margin: 5px;
-    background-image: url(../img/news.jpg);
-    background-color:rgba(255,255,255,0.6);
-    background-blend-mode:lighten;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-@media screen and (max-width:780px) { 
-    .sns { 
-        width: 100vw;
-        height: 12vh;
-        margin: 0;
-    }
+    margin: 0;
+  }
 }
 
 .sns-twitter {
-    margin-left: 80px;
+  margin-left: 80px;
 }
-@media screen and (max-width:780px) { 
-    .sns-twitter { 
-        margin: 0 auto;
-    }
+@media screen and (max-width: 780px) {
+  .sns-twitter {
+    margin: 0 auto;
+  }
 }
 
 .sns-facebook {
-    margin-right: 80px;
+  margin-right: 80px;
 }
-@media screen and (max-width:780px) { 
-    .sns-facebook { 
-        margin: 0 auto;
-    }
+@media screen and (max-width: 780px) {
+  .sns-facebook {
+    margin: 0 auto;
+  }
 }
 
 .bnr-logo > img {
-    width: 10px;
-    height: 20px;
-    margin: 10px;
+  width: 10px;
+  height: 20px;
+  margin: 10px;
 }
 
 .sns-twitter > .bnr-logo > img {
-    width: 25px;
-    height: 30px;
+  width: 25px;
+  height: 30px;
 }
 
-
 .sns-insta > .bnr-logo > img {
-    width: 20px;
-    height: 40px;
-    margin: 10px;
+  width: 20px;
+  height: 40px;
+  margin: 10px;
 }
 
 .bnr-title > small {
-    display: block;
-    font-size: 15px;
+  display: block;
+  font-size: 15px;
 }
-@media screen and (max-width:780px) { 
-    .bnr-title > small { 
-        font-size: 8px;
-    }
+@media screen and (max-width: 780px) {
+  .bnr-title > small {
+    font-size: 8px;
+  }
 }
 
 .bnr-title {
-    margin: 0 auto;
+  margin: 0 auto;
 }
-@media screen and (max-width:780px) { 
-    .bnr-title { 
-        font-size: 10px;
-    }
+@media screen and (max-width: 780px) {
+  .bnr-title {
+    font-size: 10px;
+  }
 }
 
 .sns-facebook {
-    width: 300px;
-    height: 42px;
-    border: 1.5px solid #4329d6;
-    color: #4329d6;
-    background-color: rgba(131, 142, 207, 0.219);
-    border-radius: 6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    font-family: 'Kosugi Maru', sans-serif;
+  width: 300px;
+  height: 42px;
+  border: 1.5px solid #4329d6;
+  color: #4329d6;
+  background-color: rgba(131, 142, 207, 0.219);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Kosugi Maru", sans-serif;
 }
-@media screen and (max-width:780px) { 
-    .sns-facebook { 
-        margin: 1px;
-        width: 170px;
-    }
+@media screen and (max-width: 780px) {
+  .sns-facebook {
+    margin: 1px;
+    width: 170px;
+  }
 }
 .sns-insta {
-    width: 300px;
-    height: 42px;
-    border: 1.5px solid #f92d51;
-    color: #f92d51;
-    background-color: rgba(209, 77, 117, 0.199);
-    border-radius: 6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    font-family: 'Kosugi Maru', sans-serif;
+  width: 300px;
+  height: 42px;
+  border: 1.5px solid #f92d51;
+  color: #f92d51;
+  background-color: rgba(209, 77, 117, 0.199);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Kosugi Maru", sans-serif;
 }
-@media screen and (max-width:780px) { 
-    .sns-insta { 
-        margin: 1px;
-        width: 170px;
-    }
-}
-
-.sns-twitter{
-    width: 300px;
-    height: 42px;
-    border: 1.5px solid #1ccbe3;
-    color: #1ccbe3;
-    background-color: rgba(116, 192, 197, 0.26);
-    border-radius: 6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    font-family: 'Kosugi Maru', sans-serif;
-}
-@media screen and (max-width:780px) { 
-    .sns-twitter { 
-        margin: 1px;
-        width: 170px;
-    }
+@media screen and (max-width: 780px) {
+  .sns-insta {
+    margin: 1px;
+    width: 170px;
+  }
 }
 
-.sns-twitter:hover  {
-    background-color: #ccf5fd;
+.sns-twitter {
+  width: 300px;
+  height: 42px;
+  border: 1.5px solid #1ccbe3;
+  color: #1ccbe3;
+  background-color: rgba(116, 192, 197, 0.26);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Kosugi Maru", sans-serif;
+}
+@media screen and (max-width: 780px) {
+  .sns-twitter {
+    margin: 1px;
+    width: 170px;
+  }
+}
+
+.sns-twitter:hover {
+  background-color: #ccf5fd;
 }
 .sns-insta:hover {
-    background-color: #fed6f8;
+  background-color: #fed6f8;
 }
 .sns-facebook:hover {
-    background-color: #aac0fb;
+  background-color: #aac0fb;
 }
 
 footer {
-    width: 100vw;
-    height: 30vh;
-    background-color: rgba(116, 64, 23, 0.377);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100vw;
+  height: 30vh;
+  background-color: rgba(116, 64, 23, 0.377);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-@media screen and (max-width:780px) { 
-    footer {
-        height: 13vh;
-    }
+@media screen and (max-width: 780px) {
+  footer {
+    height: 13vh;
+  }
 }
 
 .address {
-    width: 40vw;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 40vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-@media screen and (max-width:780px) { 
-    .address { 
-        height: 13vh;
-        display: flex;
-    }
+@media screen and (max-width: 780px) {
+  .address {
+    height: 13vh;
+    display: flex;
+  }
 }
 
 .address > h4 {
-    font-size: 16px;
-    margin: 10px 56px 10px 0;
-    font-family: 'Kosugi Maru', sans-serif;
+  font-size: 16px;
+  margin: 10px 56px 10px 0;
+  font-family: "Kosugi Maru", sans-serif;
 }
-@media screen and (max-width:780px) { 
-    .address > h4 { 
-        font-size: 8px;
-        margin: 0;
-    }
+@media screen and (max-width: 780px) {
+  .address > h4 {
+    font-size: 8px;
+    margin: 0;
+  }
 }
 
 .address > ul > li {
-    margin: 12px;
-    font-size: 12px;
+  margin: 12px;
+  font-size: 12px;
 }
-@media screen and (max-width:780px) { 
-    .address > ul > li { 
-        font-size: 6px;
-        margin: 4px;
-    }
+@media screen and (max-width: 780px) {
+  .address > ul > li {
+    font-size: 6px;
+    margin: 4px;
+  }
 }
 
 .footer-menu {
-    width: 60vw;
-    height: 30vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 60vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-@media screen and (max-width:780px) { 
-    .footer-menu { 
-        height: 13px;
-    }
+@media screen and (max-width: 780px) {
+  .footer-menu {
+    height: 13px;
+  }
 }
 
 .footer-menu-row > ul > li {
-    margin: 10px 0;
-    font-size: 14px;    
+  margin: 10px 0;
+  font-size: 14px;
 }
-@media screen and (max-width:780px) { 
-    .footer-menu-row > ul > li {
-        margin: 5px 0;
-        font-size: 8px;
-    }
+@media screen and (max-width: 781px) {
+  .footer-menu-row > ul > li {
+    margin: 5px 0;
+    font-size: 8px;
+  }
 }
 
 .footer-menu-row > ul > li > a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .footer-menu-row > ul > li > a:hover {
-    color: green;
+  color: green;
 }
